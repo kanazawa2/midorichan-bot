@@ -1,0 +1,22 @@
+.newsContainer {
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+    background-color: #f0f0f0;
+    color: #000;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+@media screen and (max-width: 600px) {
+    .newsContainer {
+        width: 90%;
+        height: 100%;
+        top: 3px;
+        left: 2%;
+    }
+}
